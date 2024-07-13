@@ -9,7 +9,8 @@ func handleInput():
 	
 func updateAnimation():
 	if velocity.length() == 0:
-		animations.stop()
+		if animations.is_playing():
+			animations.stop()
 		return
 	var direction = "down"
 	if velocity.x < 0: direction = "left"
