@@ -4,9 +4,11 @@
 [ext_resource type="PackedScene" uid="uid://7vlbpwl2o772" path="res://scenes/tile_map.tscn" id="2_twyj1"]
 
 [node name="main" type="Node2D"]
+y_sort_enabled = true
 
 [node name="Player" parent="." instance=ExtResource("1_0da34")]
-z_index = 1
 position = Vector2(109, 49)
 
 [node name="TileMap" parent="." instance=ExtResource("2_twyj1")]
+layer_1/y_sort_enabled = true
+layer_1/z_index = 1
