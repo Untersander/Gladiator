@@ -10,5 +10,6 @@ y_sort_enabled = true
 position = Vector2(109, 49)
 
 [node name="TileMap" parent="." instance=ExtResource("2_twyj1")]
+y_sort_enabled = true
 layer_1/y_sort_enabled = true
 layer_1/z_index = 1
